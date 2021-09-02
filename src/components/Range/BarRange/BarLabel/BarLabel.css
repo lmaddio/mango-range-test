@@ -1,0 +1,23 @@
+.range-label {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 24px;
+  top: calc(-24px/2);
+  outline: none;
+  color: black;
+  user-select: none;
+  top: 100%;
+  margin-top: 10px;
+}
+
+.range-label.disabled {
+  pointer-events: none;
+}
+
+.range-label:focus:not(.disabled), .range-label:hover:not(.disabled) {
+  color: grey;
+}
+
+.range-label:hover:not(.disabled) {
+  color: rgb(71, 71, 71);
+}

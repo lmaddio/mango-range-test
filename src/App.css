@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App a, .App h1 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.App a {
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: 0;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.App a:hover, .App a:active, .App a:focus {
+  color: black;
+}
+.App nav {
+  position: absolute;
+  top: 0;
+}

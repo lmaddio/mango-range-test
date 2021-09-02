@@ -1,0 +1,26 @@
+.bar-range-container {
+  position: relative;
+}
+
+.bar-range {
+  position: relative;
+  height: 2px;
+  background: black;
+  z-index: 0;
+}
+
+.left-label {
+  left: -11px;
+}
+
+.right-label {
+  right: -11px;
+}
+
+.step {
+  width: 2px;
+  height: 8px;
+  position: absolute;
+  background-color: black;
+  top: -3px;
+}

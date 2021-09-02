@@ -1,0 +1,30 @@
+.dot-range {
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: -10px;
+  left: -10px;
+  background-color: rgb(163, 0, 0);
+  border-radius: 50%;
+  z-index: 9;
+}
+
+.dot-range.transitioning {
+  transition:0.5s;
+}
+
+.dot-range.dragging, .dot-range.dragging:hover {
+  transform: scale(1.2);
+  cursor: grabbing;
+}
+
+.dot-range:hover {
+  transform: scale(1.2);
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+}
+
+.dot-range:focus-visible {
+  outline: none;
+}
